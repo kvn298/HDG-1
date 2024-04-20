@@ -15,7 +15,8 @@
                 { "id": "saugzuggeblaese", "name": "Saugzuggebläse", "iobType": "number", "iobRole": "level", "unit": "%", "dataid": "22030", "hdgType": "int" },
                 { "id": "betriebstunden", "name": "Betriebsstunden Kessel", "iobType": "number", "iobRole": "value", "unit": "Std", "dataid": "22011", "hdgType": "float" },
                 { "id": "leistung", "name": "Kesselleistung", "iobType": "number", "iobRole": "level", "unit": "%", "dataid": "22024", "hdgType": "int" },
-                { "id": "reinigung", "name": "Zeit bis Reinigung", "iobType": "number", "iobRole": "value", "unit": "Std", "dataid": "22025", "hdgType": "float" }
+                { "id": "reinigung", "name": "Zeit bis Reinigung", "iobType": "number", "iobRole": "value", "unit": "Std", "dataid": "22025", "hdgType": "float" },
+                { "id": "meldung", "name": "Meldungen", "iobType": "number", "iobRole": "value", "unit": "", "dataid": "20029", "hdgType": "float" }             
             ]
         }
     ],
@@ -63,6 +64,19 @@
                 { "id": "nachtSoll", "name": "Nachtbetrieb Raumtemperatur Soll", "iobType": "number", "iobRole": "level", "unit": "°C", "dataid": "6023", "hdgType": "int" },
                 { "id": "anforderungQuelle", "name": "Angeforderte Temperatur bei Quelle", "iobType": "number", "iobRole": "level", "unit": "°C", "dataid": "26099", "hdgType": "int" },
                 { "id": "vorlauftemperatur", "name": "Vorlauftemperatur", "iobType": "number", "iobRole": "level", "unit": "°C", "dataid": "26000", "hdgType": "int" }
+            ]
+        }
+    ],
+    "brauchwasser": [
+        {
+            "typeName": "Standard",
+            "supported": "K10-33",
+            "channel": "brauchwasser",
+            "name": "brauchwasser",
+            "states": [
+                { "id": "brauchwassertemperatur", "name": "Brauchwassertemperatur", "iobType": "number", "iobRole": "level", "unit": "°C", "dataid": "28000", "hdgType": "int" },
+                { "id": "ladenEin", "name": "Brauchwasser laden Ein", "iobType": "number", "iobRole": "level", "unit": "°C", "dataid": "8021", "hdgType": "int" },
+                { "id": "ladenAus", "name": "Brauchwasser laden Aus", "iobType": "number", "iobRole": "level", "unit": "°C", "dataid": "8022", "hdgType": "int" }
             ]
         }
     ]
