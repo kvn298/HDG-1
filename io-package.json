@@ -60,6 +60,7 @@
     "extIcon": "https://raw.githubusercontent.com/stemaker/ioBroker.hdg-bavaria/master/admin/hdg-bavaria.png",
     "readme": "https://github.com/stemaker/ioBroker.hdg-bavaria/blob/master/README.md",
     "loglevel": "info",
+    "tier": 2,
     "mode": "daemon",
     "type": "climate-control",
     "compact": true,
