@@ -52,7 +52,10 @@
       "hdg-bavaria",
       "hdg control"
     ],
-    "license": "MIT",
+    "licenseInformation": {
+      "type": "free",
+      "license": "MIT"
+    },
     "platform": "Javascript/Node.js",
     "main": "build/src/main.js",
     "icon": "hdg-bavaria.png",
