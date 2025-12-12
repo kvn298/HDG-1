@@ -46,7 +46,7 @@ I have only very few time for this project and moved to HA in the meantime. Ther
 ## License
 MIT License
 
-Copyright (c) 2021 stemaker <app.stemaker@gmail.com>
+Copyright (c) 2021-2025 stemaker <app.stemaker@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
