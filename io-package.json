@@ -54,7 +54,6 @@
     ],
     "license": "MIT",
     "platform": "Javascript/Node.js",
-    "main": "build/src/main.js",
     "icon": "hdg-bavaria.png",
     "enabled": true,
     "extIcon": "https://raw.githubusercontent.com/stemaker/ioBroker.hdg-bavaria/master/admin/hdg-bavaria.png",
