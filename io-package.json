@@ -71,7 +71,6 @@
         "js-controller": ">=2.0.0"
       }
     ],
-    "installedFrom": "/opt/iobroker/workspace/ioBroker.hdg-bavaria",
     "adminUI": {"config": "materialize"}
   },
   "native": {
