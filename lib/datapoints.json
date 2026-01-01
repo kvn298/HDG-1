@@ -19,13 +19,13 @@
             ]
         }
     ],
-    "puffer": [
+    "puffer1": [
         {
             "typeName": "3Temp",
             "supported": "Puffer mit 3 Sensoren",
-            "channel": "puffer",
-            "name": "Puffer",
-            "size": 850,
+            "channel": "puffer Heizraum",
+            "name": "Puffer Heizraum",
+            "size": 4500,
             "states": [
                 { "id": "tempOben",             "name": "Puffer Temperatur Oben",           "iobType": "number", "iobRole": "value.temperature", "unit": "°C", "dataid": "24000", "hdgType": "int"},
                 { "id": "tempMitte",            "name": "Puffer Temperatur Mitte",          "iobType": "number", "iobRole": "value.temperature", "unit": "°C", "dataid": "24001", "hdgType": "int"},
@@ -34,6 +34,26 @@
                 { "id": "ausTemp",              "name": "Pufferladung aus",                 "iobType": "number", "iobRole": "value.temperature", "unit": "°C", "dataid": "24006", "hdgType": "int"},
                 { "id": "anforderungAbhnehmer", "name": "Angeforderte Temperatur Abnehmer", "iobType": "number", "iobRole": "value.temperature", "unit": "°C", "dataid": "24098", "hdgType": "int"},
                 { "id": "anforderungQuelle",    "name": "Angeforderte Temperatur Quelle",   "iobType": "number", "iobRole": "value.temperature", "unit": "°C", "dataid": "24099", "hdgType": "int"}
+            ],
+            "tempStates": ["tempOben","tempMitte","tempUnten"]
+        }
+    ],
+
+     "puffer2": [
+        {
+            "typeName": "3Temp",
+            "supported": "Puffer mit 3 Sensoren",
+            "channel": "puffer Haus",
+            "name": "Puffer Haus",
+            "size": 1000,
+            "states": [
+                { "id": "tempOben",             "name": "Puffer Temperatur Oben",           "iobType": "number", "iobRole": "value.temperature", "unit": "°C", "dataid": "24100", "hdgType": "int"},
+                { "id": "tempMitte",            "name": "Puffer Temperatur Mitte",          "iobType": "number", "iobRole": "value.temperature", "unit": "°C", "dataid": "24101", "hdgType": "int"},
+                { "id": "tempUnten",            "name": "Puffer Temperatur Unten",          "iobType": "number", "iobRole": "value.temperature", "unit": "°C", "dataid": "24102", "hdgType": "int"},
+                { "id": "anTemp",               "name": "Pufferladung ein",                 "iobType": "number", "iobRole": "value.temperature", "unit": "°C", "dataid": "24104", "hdgType": "int"},
+                { "id": "ausTemp",              "name": "Pufferladung aus",                 "iobType": "number", "iobRole": "value.temperature", "unit": "°C", "dataid": "24106", "hdgType": "int"},
+                { "id": "anforderungAbhnehmer", "name": "Angeforderte Temperatur Abnehmer", "iobType": "number", "iobRole": "value.temperature", "unit": "°C", "dataid": "24198", "hdgType": "int"},
+                { "id": "anforderungQuelle",    "name": "Angeforderte Temperatur Quelle",   "iobType": "number", "iobRole": "value.temperature", "unit": "°C", "dataid": "24199", "hdgType": "int"}
             ],
             "tempStates": ["tempOben","tempMitte","tempUnten"]
         }
